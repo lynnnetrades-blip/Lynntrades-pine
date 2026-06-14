@@ -5,8 +5,8 @@
 const http    = require('http');
 const https   = require('https');
 
-const BOT_TOKEN       = process.env.BOT_TOKEN; 8305233082:AAErskwDsiatnH-bHJHNNnW1kJBAzydbtsM       // from @BotFather
-const CHAT_ID         = process.env.CHAT_ID;1716478781           // your Telegram chat ID
+const BOT_TOKEN       = process.env.BOT_TOKEN;   // from @BotFather
+const CHAT_ID         = process.env.CHAT_ID;       // your Telegram chat ID
 const WEBHOOK_SECRET  = process.env.WEBHOOK_SECRET || '2a773ba85e66cb1282757e75d854d60cb5c60c45161a3e394fe886de0cada211';
 const PORT            = process.env.PORT || 3000;
 
